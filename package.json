@@ -1,0 +1,32 @@
+{
+  "name": "juegadom-lottery",
+  "version": "2.0.0",
+  "description": "Sistema de generación de números de lotería dominicana con Supabase",
+  "private": true,
+  "scripts": {
+    "dev": "cd client && npm start",
+    "start": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "test": "cd client && npm test",
+    "eject": "cd client && npm run eject"
+  },
+  "keywords": [
+    "lottery",
+    "leidsa",
+    "dominican",
+    "numbers",
+    "generator",
+    "supabase",
+    "react",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "workspaces": [
+    "client"
+  ],
+  "dependencies": {
+    "@supabase/supabase-js": "^2.51.0",
+    "dotenv": "^17.2.0"
+  }
+}
